@@ -2,18 +2,23 @@ package com.sample.test.demo.constants;
 
 
 public enum PizzaToppings {
-    MANGOS("Diced Mango"),
+    DICEDMANGO("Diced Mango"),
     OLIVES("Olives"),
     MUSHROOMS("Mushrooms"),
-    ONIONS("Caramelized onions"),
+    CARAMELIZEDONIONS("Caramelized onions"),
     ITALIANHAM("Italian Ham"),
-    PEPPERONI("Classic Pepperoni"),
+    CLASSICPEPPERONI("Classic Pepperoni"),
     SALAMI("Salami"),
-    PROVOLNE("Provolone cheese"),
+    PROVOLONECHEESE("Provolone cheese"),
     EXTRACHEESE("Extra cheese"),
-    MOZZARELLA("Mozzarella cheese"),
-    PARMASAN("Parmesan cheese")
-
+    MOZZARELLACHEESE("Mozzarella cheese"),
+    PARMASANCHEESE("Parmesan cheese")
+    //ONIONS("Caramelized onions"),
+    //ITALIANHAM("Italian Ham"),
+    //PEPPERONI("Classic Pepperoni"),
+    //SALAMI("Salami"),
+    //PROVOLNE("Provolone cheese"),
+    
     ;
 
     private String displayName;
